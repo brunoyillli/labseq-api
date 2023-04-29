@@ -3,9 +3,16 @@
     labseq-api
 </h1>
 
-<h2>
+
+<h3>
+Acessar o Swagger
+</h3>
+
+http://localhost:8080/swagger-ui/index.html
+
+<h3>
  instruções para criar o container da aplicação pelo docker
-</h2>
+</h3>
 
 execute o comando para compilar a aplicação.: mvn clean package
 
