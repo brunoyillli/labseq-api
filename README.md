@@ -14,10 +14,7 @@ http://localhost:8080/swagger-ui/index.html
  instruções para criar o container da aplicação pelo docker
 </h3>
 
-execute o comando para compilar a aplicação.:
-mvn clean package
-
-depois em seguida use o seguinte comando para gerar a imagem docker:
+Use o seguinte comando para gerar a imagem docker:
 sudo docker build -t labseq-api:1.0.0 .
 
 então dê o seguinte comnando para gerar o container e subir a aplicação:
